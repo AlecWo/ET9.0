@@ -164,12 +164,12 @@
         "cn.etetet.referencecollector": "3.0.0",
         "cn.etetet.login": "3.0.0",
         "cn.etetet.netinner": "3.0.0",
-        "cn.etetet.hybridclr": "7.8.0",
+        "cn.etetet.hybridclr": "7.8.1",
         "cn.etetet.excel": "3.0.0",
         "cn.etetet.proto": "3.0.2",
         "cn.etetet.ai": "3.0.0",
         "cn.etetet.sourcegenerator": "3.0.1",
-        "cn.etetet.yooassets": "2.1.5",
+        "cn.etetet.yooassets": "2.3.6",
         "cn.etetet.memorypack": "1.10.1",
         "cn.etetet.startconfig": "3.0.0"
       }
@@ -192,12 +192,112 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "cn.etetet.yiui3ddisplay": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.yiuiframework": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuieffect": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.yiuiframework": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuiframework": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.core": "3.0.3",
+        "cn.etetet.yiuiinvoke": "4.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuigm": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.yiuiframework": "2.0.0",
+        "cn.etetet.yiuiloopscrollrectasync": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuiinvoke": {
+      "version": "4.0.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuiloopscrollrectasync": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.yiuiframework": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuireddot": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.yiuiframework": "2.0.0",
+        "cn.etetet.yiuiloopscrollrectasync": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuistatesync": {
+      "version": "2.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.packagemanager": "1.0.5",
+        "cn.etetet.statesync": "3.0.11",
+        "cn.etetet.yiui3ddisplay": "2.0.0",
+        "cn.etetet.yiuieffect": "2.0.0",
+        "cn.etetet.yiuiframework": "2.0.0",
+        "cn.etetet.yiuigm": "2.0.0",
+        "cn.etetet.yiuiloopscrollrectasync": "2.0.0",
+        "cn.etetet.yiuireddot": "2.0.0",
+        "cn.etetet.yiuitips": "2.0.0",
+        "cn.etetet.yiuiyooassets": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuitips": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.yiuiframework": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
+    "cn.etetet.yiuiyooassets": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "cn.etetet.yiuiframework": "2.0.0"
+      },
+      "url": "https://npm.pkg.github.com/@ET-Packages"
+    },
     "cn.etetet.yooassets": {
       "version": "file:cn.etetet.yooassets",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.21.21",
+        "com.unity.scriptablebuildpipeline": "1.21.25",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
@@ -263,15 +363,6 @@
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
       }
-    },
-    "com.unity.ide.visualstudio": {
-      "version": "2.0.22",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.test-framework": "1.1.9"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
       "version": "1.3.2",
@@ -377,7 +468,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.4.5",
-      "depth": 1,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "2.0.3",

@@ -18,6 +18,7 @@ MonoBehaviour:
   m_SeeAllPackageVersions: 0
   m_DismissPreviewPackagesInUse: 0
   oneTimeWarningShown: 1
+  oneTimeDeprecatedPopUpShown: 0
   m_Registries:
   - m_Id: main
     m_Name: 
@@ -37,8 +38,8 @@ MonoBehaviour:
   m_UserSelectedRegistryName: ET-Packages
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
-    m_Modified: 0
+    m_Modified: 1
     m_ErrorMessage: 
-    m_UserModificationsInstanceId: -838
-    m_OriginalInstanceId: -842
+    m_UserModificationsInstanceId: -870
+    m_OriginalInstanceId: -874
   m_LoadAssets: 0
